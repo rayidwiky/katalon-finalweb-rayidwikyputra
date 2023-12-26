@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Itm_Bose_SoundlinkIII</name>
+   <tag></tag>
+   <elementGuidId>eb936e63-dc27-47c4-978c-cd1d773a56e0</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.productName.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='searchPage']/div[3]/div/div/div[2]/ul/li/p/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2a9e49f9-561f-4156-b520-887180e9a8a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>productName ng-binding</value>
+      <webElementGuid>6f960883-d53e-4f8a-b033-2b6b15a8a80b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bose Soundlink Bluetooth Speaker III</value>
+      <webElementGuid>ab58e273-c940-47bb-bc1b-2068e7b89e96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;searchPage&quot;)/div[@class=&quot;noPromotedProductDiv&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;category-type-products ng-isolate-scope&quot;]/div[@class=&quot;cell categoryRight&quot;]/ul[1]/li[@class=&quot;ng-scope&quot;]/p[1]/a[@class=&quot;productName ng-binding&quot;]</value>
+      <webElementGuid>dc77598e-d8e6-443d-8b14-eadcfc329528</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='searchPage']/div[3]/div/div/div[2]/ul/li/p/a</value>
+      <webElementGuid>9c6e10b2-9d5d-4471-9a20-3ae2dfd22405</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Bose Soundlink Bluetooth Speaker III')]</value>
+      <webElementGuid>7f6671d9-1a8c-4195-a506-cdfe04567476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/p/a</value>
+      <webElementGuid>cbf76cc9-da8c-441a-a72f-51c9a78c05bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Bose Soundlink Bluetooth Speaker III' or . = 'Bose Soundlink Bluetooth Speaker III')]</value>
+      <webElementGuid>f7e7613f-89aa-4b44-b5e9-23c0bd84447a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
