@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inpt_search</name>
+   <name>inputautoComplete</name>
    <tag></tag>
-   <elementGuidId>cea212d3-d10f-46a6-bf73-e94bd7e95937</elementGuidId>
+   <elementGuidId>25735a76-062a-4518-8b9c-e9787314800a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;mobile_search&quot;]</value>
+         <value>#autoComplete</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='mobile_search']</value>
+         <value>//input[@id='autoComplete']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ffb9b7b6-a208-4545-bcc3-1c2497c1d6ec</webElementGuid>
+      <webElementGuid>39753ba0-ee8b-44b4-9962-cc3bb250abd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>mobile_search</value>
-      <webElementGuid>54d84da6-8205-4b75-9ffc-dc383fa57f9f</webElementGuid>
+      <value>autoComplete</value>
+      <webElementGuid>a6873d15-55be-4d6a-81d7-9a60c75a7c1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f9e2432a-3543-4743-a44b-275bffd399a8</webElementGuid>
+      <webElementGuid>e96326a3-b418-4bb2-8054-18baa26707ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>roboto-medium ng-pristine ng-untouched ng-valid</value>
-      <webElementGuid>4903e78b-41b9-4a36-bc7f-b150773d8a8c</webElementGuid>
+      <value>roboto-regular ng-pristine ng-valid ng-touched ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove</value>
+      <webElementGuid>45e8ec4e-b5b5-4d68-8de6-c1f89c9929b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>8afaaca6-209f-4fce-b294-05f374d34cba</webElementGuid>
+      <value>Search AdvantageOnlineShopping.com</value>
+      <webElementGuid>13922cf4-a4ae-408a-97f7-c74da5ede6b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ng-keypress</name>
       <type>Main</type>
       <value>checkEnterKey($event)</value>
-      <webElementGuid>db0103b6-8959-43e4-bff8-6c5311ccd198</webElementGuid>
+      <webElementGuid>3b6d0285-3682-46e6-acd4-f7645b365523</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>autoCompleteValue</value>
-      <webElementGuid>f727591c-e01c-402e-b1bd-620fb254d275</webElementGuid>
+      <webElementGuid>d9ac5b5d-7462-4482-ba1a-f68f0d004210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,46 +78,54 @@
       <name>data-ng-keyup</name>
       <type>Main</type>
       <value>runAutocomplete()</value>
-      <webElementGuid>a8ccaf9d-20ce-487f-b37f-426860924105</webElementGuid>
+      <webElementGuid>44097411-66f5-45e9-9d34-815b0c361478</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-animate</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>5d79182e-a45b-4013-910e-0fe2a5c3d6ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mobileSearch&quot;)/input[@class=&quot;roboto-medium ng-pristine ng-untouched ng-valid&quot;]</value>
-      <webElementGuid>49b8809b-5700-4e59-9689-f42866ee53bb</webElementGuid>
+      <value>id(&quot;autoComplete&quot;)</value>
+      <webElementGuid>9103cd65-ec9b-47f6-abf4-d0cb2b689f9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='mobile_search']</value>
-      <webElementGuid>acc2cfa5-3f55-4b20-97e2-428cb2bd1be4</webElementGuid>
+      <value>//input[@id='autoComplete']</value>
+      <webElementGuid>42b86c54-cffb-4529-ac20-e89dd0d37124</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mobileSearch']/input</value>
-      <webElementGuid>2d03bf98-b087-4ede-902d-f98f34227d57</webElementGuid>
+      <value>//div[@id='search']/div/input</value>
+      <webElementGuid>54bfc5fd-bddd-4268-90d3-b8523239e2d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//article/div/input</value>
-      <webElementGuid>e62ad35a-292e-430d-9a4a-00395f91b0bd</webElementGuid>
+      <value>//div/div/input</value>
+      <webElementGuid>fb643a68-e989-4050-971b-cf86523b5d8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'mobile_search' and @type = 'text' and @placeholder = 'Search']</value>
-      <webElementGuid>f95e28ae-4f62-4be6-a682-461bebcac7e8</webElementGuid>
+      <value>//input[@id = 'autoComplete' and @type = 'text' and @placeholder = 'Search AdvantageOnlineShopping.com']</value>
+      <webElementGuid>f62b64f1-7321-4105-ac16-455646d7b090</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
