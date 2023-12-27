@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_BOSE SOUNDLINK BLUETOOTH SPEAKER III</name>
+   <tag></tag>
+   <elementGuidId>0471b6bc-04c4-4578-8c2b-0dc58df2018d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.roboto-regular.screen768.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Description']/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>fa761519-260b-4699-920d-a07998db51e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roboto-regular screen768 ng-binding</value>
+      <webElementGuid>71bd4585-44fc-4fa7-953b-7d72ddf43afc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> BOSE SOUNDLINK BLUETOOTH SPEAKER III </value>
+      <webElementGuid>1031fde5-9ab9-4caf-ac7b-08174d1ce8c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Description&quot;)/h1[@class=&quot;roboto-regular screen768 ng-binding&quot;]</value>
+      <webElementGuid>8a769ed1-6d2d-4b73-b418-65ff0a589372</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Description']/h1</value>
+      <webElementGuid>0c1e6b56-bf69-44ae-aea3-a55edd7ce762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h1</value>
+      <webElementGuid>cf3b90dd-f19e-44d3-b31d-9e396be875c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = ' BOSE SOUNDLINK BLUETOOTH SPEAKER III ' or . = ' BOSE SOUNDLINK BLUETOOTH SPEAKER III ')]</value>
+      <webElementGuid>ee6398ef-6a10-4198-b279-3a1683cf3a9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

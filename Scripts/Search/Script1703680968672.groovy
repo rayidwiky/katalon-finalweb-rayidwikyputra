@@ -17,9 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://advantageonlineshopping.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('HomePage/Page_Advantage Shopping/inpt_search'))
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
-WebUI.setText(findTestObject('HomePage/Page_Advantage Shopping/inpt_search'), 'asas')
+WebUI.maximizeWindow()
 
+WebUI.click(findTestObject('Object Repository/Search/svgmenuSearch'))
+
+WebUI.setText(findTestObject('Object Repository/Search/inputautoComplete'), 'BOSE SOUNDLINK BLUETOOTH SPEAKER III')
+
+WebUI.click(findTestObject('Search/btn_viewALL'))
+
+def item = WebUI.getText(findTestObject('Object Repository/Search/a_Bose Soundlink Bluetooth Speaker III'))
+
+WebUI.verifyEqual(item, 'Bose Soundlink Bluetooth Speaker III')
