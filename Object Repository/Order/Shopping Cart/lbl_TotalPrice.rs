@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_TotalPrice</name>
+   <tag></tag>
+   <elementGuidId>32c23e69-5c94-493c-8cde-13de5c631776</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>table.fixedTableEdgeCompatibility > tfoot > tr > td:nth-of-type(2) > span.roboto-medium.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shoppingCart']/table/tfoot/tr/td[2]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>133b37c4-2e68-401f-8641-14d1c53c920a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roboto-medium ng-binding</value>
+      <webElementGuid>c95f446b-55c0-47de-b59e-5e7d330f8690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$428.99</value>
+      <webElementGuid>c2eb4df0-da4b-4dc4-9980-46465aa4bf7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shoppingCart&quot;)/table[@class=&quot;fixedTableEdgeCompatibility&quot;]/tfoot[1]/tr[1]/td[2]/span[@class=&quot;roboto-medium ng-binding&quot;]</value>
+      <webElementGuid>b0c14428-6a37-4a91-a556-91400041f2ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shoppingCart']/table/tfoot/tr/td[2]/span[2]</value>
+      <webElementGuid>b71c8120-0fe1-46fd-b7e6-730394bad425</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/span[2]</value>
+      <webElementGuid>787123eb-1879-4476-b411-b918fb9c57c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$428.99' or . = '$428.99')]</value>
+      <webElementGuid>721b1faa-c2d9-4f60-90f0-291bcb755e6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

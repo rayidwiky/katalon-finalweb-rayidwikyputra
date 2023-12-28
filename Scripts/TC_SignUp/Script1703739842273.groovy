@@ -17,9 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://advantageonlineshopping.com/')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('HomePage/Page_Advantage Shopping/inpt_search'))
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
-WebUI.setText(findTestObject('HomePage/Page_Advantage Shopping/inpt_search'), 'asas')
+WebUI.maximizeWindow()
+
+WebUI.waitForElementVisible(findTestObject('Homepage/Logo'), 0)
+
+WebUI.click(findTestObject('Homepage/Mn_Usr'))
+
+WebUI.waitForElementVisible(findTestObject('Login/Pg_Login'), 0)
+
+WebUI.click(findTestObject('Object Repository/SignUp/btn_CreateAcc'))
+
+WebUI.waitForElementVisible(findTestObject('SignUp/Pg_register'), 0)
+
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_UserNm'), User_Name)
+
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_Email'), Mail)
+
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_Pwd'), Password)
+
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_PwdConfirm'), Password)
+
+WebUI.click(findTestObject('Object Repository/SignUp/btn_Agree'))
+
+WebUI.click(findTestObject('Object Repository/SignUp/btn_register'))
 

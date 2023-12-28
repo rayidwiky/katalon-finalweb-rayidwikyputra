@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Price2</name>
+   <tag></tag>
+   <elementGuidId>8b9b7fa1-c709-4096-9612-5f410636021f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shoppingCart']/table/tbody/tr[2]/td[6]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>2822b618-f2ce-4d09-a320-bf923122d293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>price roboto-regular ng-binding</value>
+      <webElementGuid>882e4f41-ea93-44e4-a65a-540336a7baa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            $129.00
+                        </value>
+      <webElementGuid>3831e56d-8f6e-4df0-9efa-a49d8e591721</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shoppingCart&quot;)/table[@class=&quot;fixedTableEdgeCompatibility&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;smollCell&quot;]/p[@class=&quot;price roboto-regular ng-binding&quot;]</value>
+      <webElementGuid>45ff6a1a-2c7d-4d4a-a4ba-3bc8bd8e14d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shoppingCart']/table/tbody/tr[2]/td[6]/p</value>
+      <webElementGuid>ebc1692e-e71c-4b9d-a990-8c29d42ae52e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[6]/p</value>
+      <webElementGuid>28ba9edc-58ad-4984-94b7-1d89cbfdd888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '
+                            $129.00
+                        ' or . = '
+                            $129.00
+                        ')]</value>
+      <webElementGuid>4871a4f2-2f27-4c84-aefd-3d974b10468e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

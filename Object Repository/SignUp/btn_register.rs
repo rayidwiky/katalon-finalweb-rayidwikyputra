@@ -1,123 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inpt_search</name>
+   <name>btn_register</name>
    <tag></tag>
-   <elementGuidId>cea212d3-d10f-46a6-bf73-e94bd7e95937</elementGuidId>
+   <elementGuidId>8c444b01-2912-46a5-86b3-2cb4faa797ab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;mobile_search&quot;]</value>
+         <value>#register_btn</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='mobile_search']</value>
+         <value>//button[@id='register_btn']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>ffb9b7b6-a208-4545-bcc3-1c2497c1d6ec</webElementGuid>
+      <value>button</value>
+      <webElementGuid>97754552-e3aa-428d-8a86-a4737d2dccb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>mobile_search</value>
-      <webElementGuid>54d84da6-8205-4b75-9ffc-dc383fa57f9f</webElementGuid>
+      <value>register_btn</value>
+      <webElementGuid>e258b5c1-c498-4a4c-ae8d-e44ab0145f4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>f9e2432a-3543-4743-a44b-275bffd399a8</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c942bd9a-5eb6-40cc-a8e1-4b1b5f823f37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>roboto-medium ng-pristine ng-untouched ng-valid</value>
-      <webElementGuid>4903e78b-41b9-4a36-bc7f-b150773d8a8c</webElementGuid>
+      <value>sec-sender-a ng-scope</value>
+      <webElementGuid>9aff1892-99e5-4397-9475-9f5f04066b65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9adb2ee7-0c99-4bd2-9759-d1d16ab742f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>senderCtrl.send()</value>
+      <webElementGuid>1b1e79b5-5805-49fc-b17c-0f819f9dc224</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Search</value>
-      <webElementGuid>8afaaca6-209f-4fce-b294-05f374d34cba</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ng-keypress</name>
-      <type>Main</type>
-      <value>checkEnterKey($event)</value>
-      <webElementGuid>db0103b6-8959-43e4-bff8-6c5311ccd198</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ng-model</name>
-      <type>Main</type>
-      <value>autoCompleteValue</value>
-      <webElementGuid>f727591c-e01c-402e-b1bd-620fb254d275</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ng-keyup</name>
-      <type>Main</type>
-      <value>runAutocomplete()</value>
-      <webElementGuid>a8ccaf9d-20ce-487f-b37f-426860924105</webElementGuid>
+      <value>REGISTER</value>
+      <webElementGuid>c037e30e-e548-4601-855a-f4452f0f9f09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mobileSearch&quot;)/input[@class=&quot;roboto-medium ng-pristine ng-untouched ng-valid&quot;]</value>
-      <webElementGuid>49b8809b-5700-4e59-9689-f42866ee53bb</webElementGuid>
+      <value>id(&quot;register_btn&quot;)</value>
+      <webElementGuid>6083d077-f18c-4142-9d92-f2ab87efbe66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='mobile_search']</value>
-      <webElementGuid>acc2cfa5-3f55-4b20-97e2-428cb2bd1be4</webElementGuid>
+      <value>//button[@id='register_btn']</value>
+      <webElementGuid>e3bf50da-d56f-4681-8b28-5e162fe1827a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mobileSearch']/input</value>
-      <webElementGuid>2d03bf98-b087-4ede-902d-f98f34227d57</webElementGuid>
+      <value>//section[@id='registerPage']/article/sec-form/div[2]/sec-sender/button</value>
+      <webElementGuid>22423183-60e7-43c2-9584-e89548f58c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//article/div/input</value>
-      <webElementGuid>e62ad35a-292e-430d-9a4a-00395f91b0bd</webElementGuid>
+      <value>//div[2]/sec-sender/button</value>
+      <webElementGuid>1c9b34cc-7aa5-4359-8f03-f08fcc820d19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'mobile_search' and @type = 'text' and @placeholder = 'Search']</value>
-      <webElementGuid>f95e28ae-4f62-4be6-a682-461bebcac7e8</webElementGuid>
+      <value>//button[@id = 'register_btn' and @type = 'button' and (text() = 'REGISTER' or . = 'REGISTER')]</value>
+      <webElementGuid>626efebf-c724-448d-af61-5b8d71fbfe16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
