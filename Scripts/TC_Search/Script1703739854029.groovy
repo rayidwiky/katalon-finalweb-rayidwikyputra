@@ -23,13 +23,15 @@ WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Login/Mn_Usr'))
+WebUI.waitForElementVisible(findTestObject('Homepage/Logo'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Login/inpt_UsrNM'), 'rayidwi012')
+WebUI.click(findTestObject('Object Repository/Homepage/Nav_Search'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/inpt_Pwd'), 'CcY3C8ez4dcPTAH5wSRG6A==')
+WebUI.setText(findTestObject('Object Repository/Search/inpt_Search'), 'BOSE SOUNDLINK BLUETOOTH SPEAKER III')
 
-WebUI.click(findTestObject('Object Repository/Login/btn_SIGNIN'))
+WebUI.click(findTestObject('Search/btn_viewALL'))
 
-def Username = WebUI.getText(findTestObject('Object Repository/Login/Data_UsrNm'))
-WebUI.verifyEqual(Username, 'rayidwi012')
+def item = WebUI.getText(findTestObject('Object Repository/Search/itm_Bose'))
+
+WebUI.verifyEqual(item, 'Bose Soundlink Bluetooth Speaker III')
+

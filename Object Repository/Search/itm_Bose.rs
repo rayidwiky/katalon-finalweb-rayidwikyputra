@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Bose Soundlink Bluetooth Speaker III</name>
+   <name>itm_Bose</name>
    <tag></tag>
    <elementGuidId>2b460192-a443-4218-81d8-6e6f1dd0ba52</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Bose Soundlink Bluetooth Speaker III' or . = 'Bose Soundlink Bluetooth Speaker III')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a.productName.ng-binding</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Bose Soundlink Bluetooth Speaker III')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Bose Soundlink Bluetooth Speaker III' or . = 'Bose Soundlink Bluetooth Speaker III')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

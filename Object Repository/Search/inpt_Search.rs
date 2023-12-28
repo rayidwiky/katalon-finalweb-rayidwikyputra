@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputautoComplete</name>
+   <name>inpt_Search</name>
    <tag></tag>
    <elementGuidId>25735a76-062a-4518-8b9c-e9787314800a</elementGuidId>
    <selectorCollection>
