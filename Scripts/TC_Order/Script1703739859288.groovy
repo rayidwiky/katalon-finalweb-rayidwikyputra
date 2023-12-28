@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
 WebUI.maximizeWindow()
 */
-WebUI.callTestCase(findTestCase('TC_LogIn'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('TC_LogIn'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Homepage/Logo'), 0)
 

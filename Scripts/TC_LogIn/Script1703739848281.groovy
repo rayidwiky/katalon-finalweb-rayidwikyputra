@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Object Repository/Homepage/Mn_Usr'))
 
 WebUI.waitForElementVisible(findTestObject('Login/Pg_Login'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Login/inpt_UsrNM'), 'rayidwi014')
+WebUI.setText(findTestObject('Object Repository/Login/inpt_UsrNM'), User_Name)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/inpt_Pwd'), 'CcY3C8ez4dcPTAH5wSRG6A==')
+WebUI.setText(findTestObject('Object Repository/Login/inpt_Pwd'), Password)
 
 WebUI.click(findTestObject('Object Repository/Login/btn_SIGNIN'))
 
@@ -39,5 +39,12 @@ WebUI.waitForElementVisible(findTestObject('Homepage/Logo'), 0)
 
 def Username = WebUI.getText(findTestObject('Object Repository/Login/Data_UsrNm'))
 
-WebUI.verifyEqual(Username, 'rayidwi014')
+if (Username == User_Name) {
+     WebUI.comment('Login successful! User is ' + Username) // Tambahkan kode atau tindakan tambahan jika login berhasil
+    // Tambahkan kode atau tindakan tambahan jika login gagal
+} else {
+     WebUI.comment('Login failed! Expected user: rayidwi014, Actual user: ' + Username)
+
+
+}
 

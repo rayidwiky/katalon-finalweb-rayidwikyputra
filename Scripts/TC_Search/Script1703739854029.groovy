@@ -17,12 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+/*WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
 WebUI.maximizeWindow()
-
+*/
 WebUI.waitForElementVisible(findTestObject('Homepage/Logo'), 0)
 
 WebUI.click(findTestObject('Object Repository/Homepage/Nav_Search'))

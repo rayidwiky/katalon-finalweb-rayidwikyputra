@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7465756-6fcc-4a96-9714-aebe4b67313b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c44cdbdd-8b85-439f-a036-af13c331bdf2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a06ead9-adec-4c58-b4b0-a3785bdaa20f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73562fee-201a-4d59-9945-edf98f2a8b80</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'rayidwi014'</defaultValue>
+      <description></description>
+      <id>c44cdbdd-8b85-439f-a036-af13c331bdf2</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'rayidwiiiii@gmail.com'</defaultValue>
+      <description></description>
+      <id>4a06ead9-adec-4c58-b4b0-a3785bdaa20f</id>
+      <masked>false</masked>
+      <name>Mail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ketahurayi12'</defaultValue>
+      <description></description>
+      <id>73562fee-201a-4d59-9945-edf98f2a8b80</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>
