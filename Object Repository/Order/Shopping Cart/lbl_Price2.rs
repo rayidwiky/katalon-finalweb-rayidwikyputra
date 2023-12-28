@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_BOSE SOUNDLINK BLUETOOTH SPEAKER III</name>
+   <name>lbl_Price2</name>
    <tag></tag>
-   <elementGuidId>0471b6bc-04c4-4578-8c2b-0dc58df2018d</elementGuidId>
+   <elementGuidId>8b9b7fa1-c709-4096-9612-5f410636021f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h1.roboto-regular.screen768.ng-binding</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='Description']/h1</value>
+         <value>//div[@id='shoppingCart']/table/tbody/tr[2]/td[6]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,61 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>fa761519-260b-4699-920d-a07998db51e0</webElementGuid>
+      <value>p</value>
+      <webElementGuid>2822b618-f2ce-4d09-a320-bf923122d293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>roboto-regular screen768 ng-binding</value>
-      <webElementGuid>71bd4585-44fc-4fa7-953b-7d72ddf43afc</webElementGuid>
+      <value>price roboto-regular ng-binding</value>
+      <webElementGuid>882e4f41-ea93-44e4-a65a-540336a7baa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> BOSE SOUNDLINK BLUETOOTH SPEAKER III </value>
-      <webElementGuid>1031fde5-9ab9-4caf-ac7b-08174d1ce8c6</webElementGuid>
+      <value>
+                            $129.00
+                        </value>
+      <webElementGuid>3831e56d-8f6e-4df0-9efa-a49d8e591721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Description&quot;)/h1[@class=&quot;roboto-regular screen768 ng-binding&quot;]</value>
-      <webElementGuid>8a769ed1-6d2d-4b73-b418-65ff0a589372</webElementGuid>
+      <value>id(&quot;shoppingCart&quot;)/table[@class=&quot;fixedTableEdgeCompatibility&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;smollCell&quot;]/p[@class=&quot;price roboto-regular ng-binding&quot;]</value>
+      <webElementGuid>45ff6a1a-2c7d-4d4a-a4ba-3bc8bd8e14d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Description']/h1</value>
-      <webElementGuid>0c1e6b56-bf69-44ae-aea3-a55edd7ce762</webElementGuid>
+      <value>//div[@id='shoppingCart']/table/tbody/tr[2]/td[6]/p</value>
+      <webElementGuid>ebc1692e-e71c-4b9d-a990-8c29d42ae52e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/h1</value>
-      <webElementGuid>cf3b90dd-f19e-44d3-b31d-9e396be875c2</webElementGuid>
+      <value>//tr[2]/td[6]/p</value>
+      <webElementGuid>28ba9edc-58ad-4984-94b7-1d89cbfdd888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = ' BOSE SOUNDLINK BLUETOOTH SPEAKER III ' or . = ' BOSE SOUNDLINK BLUETOOTH SPEAKER III ')]</value>
-      <webElementGuid>ee6398ef-6a10-4198-b279-3a1683cf3a9b</webElementGuid>
+      <value>//p[(text() = '
+                            $129.00
+                        ' or . = '
+                            $129.00
+                        ')]</value>
+      <webElementGuid>4871a4f2-2f27-4c84-aefd-3d974b10468e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

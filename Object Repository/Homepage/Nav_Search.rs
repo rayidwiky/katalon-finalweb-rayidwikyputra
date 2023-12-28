@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svgmenuSearch</name>
+   <name>Nav_Search</name>
    <tag></tag>
    <elementGuidId>b06123a1-36aa-44fa-8e7d-749c582f5d98</elementGuidId>
    <selectorCollection>
