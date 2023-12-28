@@ -33,13 +33,13 @@ WebUI.click(findTestObject('Object Repository/SignUp/btn_CreateAcc'))
 
 WebUI.waitForElementVisible(findTestObject('SignUp/Pg_register'), 0)
 
-WebUI.setText(findTestObject('Object Repository/SignUp/inpt_UserNm'), 'rayidwi014')
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_UserNm'), User_Name)
 
-WebUI.setText(findTestObject('Object Repository/SignUp/inpt_Email'), 'rayidwiiiii@gmail.com')
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_Email'), Mail)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/inpt_Pwd'), 'CcY3C8ez4dcPTAH5wSRG6A==')
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_Pwd'), Password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SignUp/inpt_PwdConfirm'), 'CcY3C8ez4dcPTAH5wSRG6A==')
+WebUI.setText(findTestObject('Object Repository/SignUp/inpt_PwdConfirm'), Password)
 
 WebUI.click(findTestObject('Object Repository/SignUp/btn_Agree'))
 
